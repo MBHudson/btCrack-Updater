@@ -1,0 +1,6 @@
+cd
+cd brainflayer
+wget https://bitkeys.work/btc_balance_sorted.csv
+cut -d, -f 4 btc_balance_sorted.csv > btc_h160.txt
+cd
+btCrack
